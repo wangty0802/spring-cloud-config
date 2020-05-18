@@ -1,20 +1,7 @@
-spring:
-  view:
-    prefix: classpath:/templates/
-    suffix: .html
-  application:
-    name: client-3
-
-
-server:
-  port: 8899
-
-
-eureka:
-  client:
-    service-url:
-      defaultZone: http://eureka1:8888/eureka/
-  instance:
-    prefer-ip-address: true
+data:
+  env: config-eureka-dev
+  user:
+    username: eureka-client-user
+    password: 1291029102
 
 
